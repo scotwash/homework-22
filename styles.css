@@ -1,52 +1,55 @@
 body, html {
     height: 100%;
 }
+/*changes the font of the navigation bar*/
 nav {
     font-family: monospace;
 
 }
+/*changes the font, color and centers the heading*/
 h1 {
     font-family: cursive;
     text-align: center;
     background-color: antiquewhite;
 }
-
+/*changes the background color of the title*/
+#title {
+    background-color: burlywood;
+}
+/*changes the background color, font, and font size in all divs*/
 div {
     background-color: antiquewhite;
     font-family: monospace;
     font-size: 30px;
 
 }
-
-div .hero-image {
-    height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+/*makes hero image*/
+.hero-image img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 600px;
 }
-
+/*increases the height of the hero image*/
 .hero-image {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
+    height: 500px;
+    overflow: hidden;
 }
-
+/*targets text's font size and font in the date id tag */
 #date {
     font-size: 15px;
     font-family: monospace;
 }
-
+/*targets text's font size and font in the author id tag */
 #author {
     font-family: monospace;
 }
-
+/*changes background color of blog*/
 body {
     background-color: burlywood;
 }
 
+/*centers all images in blog*/
 img {
     display: block;
   margin-left: auto;
@@ -57,16 +60,24 @@ img {
 li {
     display: inline;
   }
-
+/*changed size of nav and background color*/
 nav {
     font-size: 20px;
     background-color: antiquewhite;
     color: black;
 }
-
+/*styling nav link so that it is spaced out*/
 #home {
-    padding: auto;
-    margin: auto;
+    padding: 50px;
+    margin: 50px;
+}
+/*styling nav link so that it is spaced out*/
+#google {
+    padding: 50px;
+    margin: 50px;
 }
 
-  
+/*centers all articles text*/
+#venus1,#venus2,#venus3,#venus4 {
+    text-align: center;
+}
