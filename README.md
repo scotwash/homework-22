@@ -11,3 +11,6 @@ For this assignment I learned how to make a hero image by changing the height an
 ### Live Link
 
 [Blog Page](https://{username}.github.io/{reponame}/homework-2)
+
+http://127.0.0.1:5500/index.html (https://scotwash.github.io/homework-2)
+
