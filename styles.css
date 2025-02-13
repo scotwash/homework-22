@@ -34,7 +34,14 @@ div .hero-image {
 
 }
 
+#date {
+    font-size: 15px;
+    font-family: monospace;
+}
 
+#author {
+    font-family: monospace;
+}
 
 body {
     background-color: burlywood;
