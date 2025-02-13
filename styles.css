@@ -1,10 +1,14 @@
+body, html {
+    height: 100%;
+}
 nav {
     font-family: monospace;
 
 }
 h1 {
-    font-family: monospace;
+    font-family: arial;
     text-align: center;
+    background-color: antiquewhite;
 }
 
 div {
@@ -42,3 +46,15 @@ img {
   margin-right: auto;
   width: 50%;
 }
+
+li {
+    display: inline;
+  }
+
+nav {
+    font-size: 20px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+  
